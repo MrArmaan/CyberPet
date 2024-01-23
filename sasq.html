@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="play-styles.css">
+    <title>Play Game - Saibāpetto サイバーペット</title>
+</head>
+<body>
+
+    <div class="background-image-play">
+       
+        <div class="title">
+            <h1>Play Game - Saibāpetto サイバーペット</h1>
+        </div>
+
+        <div class="gameSpace">
+
+            <div  id="sasqChar">
+                <div id="sasqSheet">
+                </div>
+            </div>
+        </div>
+
+    
+  
+
+
+        <div class="tamagotchi-section" id="tamagotchiSection" style="display: none;">
+            <h2>Your Saibāpetto</h2>
+            <div class="stats">
+                <div id="hpBar" class="stat-bar"></div>
+                <div id="strengthBar" class="stat-bar"></div>
+                <div id="staminaBar" class="stat-bar"></div>
+                <div id="happinessBar" class="stat-bar"></div>
+            </div>
+            <div class="actions">
+                <button onclick="feedMe()">Feed Me</button>
+                <button onclick="playWithMe()">Play With Me</button>
+                <button onclick="cuddleMe()">Cuddle Me</button>
+                <button onclick="sendMeToWar()">Send Me to War</button>
+            </div>
+        </div>
+    </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="creator.html">About Us</a></li>
+                <li><a href="play.html">Play Game</a></li>
+            </ul>
+        </nav>
+    
+    <script src="chars.js"></script>
+</body>
+</html>

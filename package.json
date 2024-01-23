@@ -1,0 +1,15 @@
+{
+  "name": "group_collab",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000G\u0000r\u0000o\u0000u\u0000p\u0000_\u0000c\u0000o\u0000l\u0000l\u0000a\u0000b\u0000\r\u0000 \u0000",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="play-styles.css">
+    <title>Saibāpetto サイバーペット</title>
+</head>
+    <body>
+        <div class="gameContainer">
+            <div><h1 class="title">Saibāpetto サイバーペット</h1></div>
+            <div id="startBtn">
+                <p id="start">Start Game</p>
+            </div>
+            <div class="name"></div>
+            <!-- <div id="confetti"> -->
+            <div class="character">
+                <div class="dinoChar">
+                    <div id="dinoSheet"></div>
+                </div>
+                <div class="catChar">
+                    <div id="catSheet"></div>
+                </div>
+                <div class="trollChar">
+                    <div class="trollSheet"></div>
+                </div>
+                <div class="sasqChar">
+                    <div id="sasqSheet"></div>
+                </div>
+            </div>
+            <div class="statsCont">
+                <div class="stats">
+                    <p>HP</p>
+                    <progress id="hp" value="10" max="10"></progress>
+                </div>
+                <div class="stats">
+                    <p>Stamina</p>
+                    <progress id="stamina" value="10" max="10"></progress>
+                </div>
+                <div class="stats">
+                    <p>Happiness</p>
+                    <progress id="happiness" value="10" max="10"></progress>
+                </div>
+                </div>
+            </div>
+            <div class="actions">
+                <button id="feed">Feed Me</button>
+                <button id="play">Play With Me</button>
+                <button id="hug">Cuddle Me</button>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="creator.html">About Us</a></li>
+                <li><a href="play.html">Play Game</a></li>
+            </ul>
+        </nav>
+
+        <script src="script.js"></script>
+        <script src="chars.js"></script>
+    </body>
+</html>

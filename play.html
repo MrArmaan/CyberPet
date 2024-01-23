@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+
+        <div><h1 class="title">Saibāpetto サイバーペット</h1></div>
+        
+        <div class="catCont">
+            <div id="image"></div><img  src="images/Catnobackground.png" alt="Tamagotchi">
+        </div>
+
+        <div class="statcont">
+        <div class="stat-bar">
+            <div class="bar" id="health-bar"></div>
+            <p>Health</p>
+        </div>
+
+        <div class="stat-bar">
+            <div class="bar" id="happiness-bar"></div>
+            Happiness
+        </div>
+
+        <div class="stat-bar">
+            <div class="bar" id="stamina-bar"></div>
+            <p>Stamina</p>
+        </div>
+
+        <div class="stat-bar">
+            <div class="bar" id="strength-bar"></div>
+            <p>Strength</p>
+        </div>
+        </div>
+        
+        <div class="actionsCont">
+            <div class="action">
+                <button id="play-btn" onclick="playWithMe()">Play with me</button>
+                <button id="feed-btn" onclick="feedMe()">Feed me</button>
+                <button id="cuddle-btn" onclick="cuddleMe()">Cuddle me</button>
+                <button id="war-btn" onclick="sendToWar()">Send to war</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
